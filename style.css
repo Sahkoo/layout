@@ -305,6 +305,42 @@ header {
     margin-left: 40px;
 }
 
+.block2 {
+    overflow: hidden;
+}
+
+.block2 img {
+    transition: 0.5s;
+}
+
+.block4 {
+    overflow: hidden;
+}
+
+.block4 img {
+    transition: 0.5s;
+}
+
+.block2:hover img {
+    transform: scale(1.1);
+}
+
+.block3:hover img {
+    transform: scale(1.1);
+}
+
+.block4:hover img {
+    transform: scale(1.1);
+}
+
+.block3 img {
+    transition: 0.5s;
+}
+
+.block3 {
+    overflow: hidden;
+}
+
 .block1-text {
     display: flex;
     width: 313.203px;
@@ -470,6 +506,7 @@ header {
     flex-direction: column;
     text-align: center;
     padding: 36px;
+    overflow: hidden;
 }
 
 .photo-text-02 {
@@ -477,6 +514,7 @@ header {
     flex-direction: column;
     text-align: center;
     padding: 36px;
+    overflow: hidden;
 }
 
 .photo-text-03 {
@@ -484,6 +522,7 @@ header {
     flex-direction: column;
     text-align: center;
     padding: 36px;
+    overflow: hidden;
 }
 
 .photo-text-04 {
@@ -491,7 +530,41 @@ header {
     flex-direction: column;
     text-align: center;
     padding: 36px;
+    overflow: hidden;
 }
+
+.photo-text-01 img {
+    transition: 0.5s;
+}
+
+.photo-text-02 img {
+    transition: 0.5s;
+}
+
+.photo-text-03 img {
+    transition: 0.5s;
+}
+
+.photo-text-04 img {
+    transition: 0.5s;
+}
+
+.photo-text-01:hover img {
+    transform: scale(1.1);
+}
+
+.photo-text-02:hover img {
+    transform: scale(1.1);
+}
+
+.photo-text-03:hover img {
+    transform: scale(1.1);
+}
+
+.photo-text-04:hover img {
+    transform: scale(1.1);
+}
+
 
 .button-shop-now2 {
     display: flex;
@@ -585,9 +658,42 @@ header {
     display: flex;
 }
 
+.photos-photo1 {
+    overflow: hidden;
+}
+
+.photos-photo3 {
+    overflow: hidden;
+}
+
 .photos-photo2 {
     margin-right: 15px;
     margin-left: 15px;
+    overflow: hidden;
+}
+
+.photos-photo1:hover img {
+    transform: scale(1.1);
+}
+
+.photos-photo1 img {
+    transition: 0.5s;
+}
+
+.photos-photo2:hover img {
+    transform: scale(1.1);
+}
+
+.photos-photo2 img {
+    transition: 0.5s;
+}
+
+.photos-photo3:hover img {
+    transform: scale(1.1);
+}
+
+.photos-photo3 img {
+    transition: 0.5s;
 }
 
 .explore-p1 {
@@ -1041,7 +1147,7 @@ footer {
         opacity: 1;
     } */
 
-    .magaz{
+    .magaz {
         display: none;
     }
 
@@ -1119,13 +1225,14 @@ footer {
         display: none;
     }
 
-    footer{
+    footer {
         display: none;
     }
 
     .our-best {
         display: none;
     }
+
     .deliver {
         display: none;
     }
